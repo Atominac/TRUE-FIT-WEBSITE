@@ -16,8 +16,12 @@
 
 	#logo {
 		position: absolute;
-		top: 3em;
+		padding-top: 30px;
 		left: 0;
+        background: linear-gradient(to right, #000000 ,#212121);
+        padding: 20px;
+        border-bottom-left-radius: 50px;
+        
 	}
 	
 	#logo h1 a {
@@ -30,6 +34,8 @@
 		font-weight: 800;
 		color: #FFF;
 	}
+
+
 	
 /* Menu */
 
@@ -64,7 +70,7 @@
 	}
 	
 	#nav .current_page_item a {
-		background: #2B8FC4;
+		background: #bc252b;
 		box-shadow: inset 0px -15px 10px 0px rgba(0,0,0,0.10);
 		text-shadow: none;
 		color: #FFFFFF;
